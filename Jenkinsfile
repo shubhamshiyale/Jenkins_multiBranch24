@@ -1,8 +1,7 @@
 pipeline{
 	agent{
-		label {
-		label "slave-linux"	
-		}
+	label "QA"
+		
 	}
 
             stages{
@@ -18,4 +17,3 @@ pipeline{
 			   }
 }
 }
-
